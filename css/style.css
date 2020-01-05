@@ -1,0 +1,149 @@
+body {
+    background-color: white;
+    font-size: 13px;
+    color: black;
+    font-family: Liberation Sans, arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+  }
+
+li a {
+    display: block;
+    text-align:center;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: grey
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    background-color:#4285f4;
+    color: white;
+    font-weight: bold;
+    padding: 7.5px 14px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.sign-in:hover {
+    box-shadow: 0px 1px 3px #bbbbbb;
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#search-box {
+    border-style: solid;
+    margin: 30px auto;
+    width: 660px;
+    height: 55px;
+    border-radius: 22.5px;
+    border-color: #dfe1e5;
+    border-width: 1px;
+    font-size: 1em;
+}
+
+.search-icon{
+    transform: translate(-60%,25%);
+}
+.sound-icon{
+    position: absolute;
+    transform: translate(40%,50%);
+}
+
+#search-box:hover{
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+#search-box input[type="search"] {
+    height: 45px;
+    width: 500px;
+    font-size: 1em;
+    border-style: none;
+    outline: none;
+}
+
+#search-buttons button {
+    color: grey;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#search-buttons button:hover {
+    border: 1px solid rgb(209, 207, 207);
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.prefoot {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top: solid 1px rgb(212, 211, 211);
+    background-color: rgb(242, 242, 242);
+    padding-left: 10px;
+    font-size: 13px;
+    color: gray;
+    font-family: Liberation Sans, arial, sans-serif;
+    
+}
+.foot {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top: solid 1px rgb(212, 211, 211);
+    background-color: rgb(242, 242, 242);
+    bottom: 0;
+}
+
+#country {
+    font-size: 13px;
+    color: gray;
+    font-family: Liberation Sans, arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;    
+}
+
+.footdiv {
+    border-top: 1px solid #dfe1e5;  
+}
+
+footer {
+    background-color: whitesmoke;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 5px;
+    position: absolute;
+    border-top: 1px solid #dfe1e5;
+}
